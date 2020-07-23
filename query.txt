@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS `regions` (
+  `id` integer NOT NULL,
+  `region` varchar(200) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+INSERT INTO `regions` (`id`, `region`)
+VALUES
+(1,'Oti Region - Dambai'),
+(2,'Bono East Region - Techiman'),
+(3,'Ahafo Region - Goaso'),
+(4,'Bono Region - Sunyani'),
+(5,'North East Region - Nalerigu'),
+(6,'Savannah Region - Damango'),
+(7,'Western North Region- Sefwi Wiawso'),
+(8,'Western Region - Sekondi'),
+(9,'Volta Region - Ho'),
+(10,'Greater Accra Region - Accra'),
+(11,'Eastern Region - Koforidua'),
+(12,'Ashanti Region - Kumasi'),
+(13,'Central Region - Cape Coast'),
+(14,'Northern Region - Tamale'),
+(15,'Upper East Region - Bolgatanga'),
+(16,'Upper West Region - Wa');
